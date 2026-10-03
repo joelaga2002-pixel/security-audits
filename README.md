@@ -1,3 +1,38 @@
+## Repository Information
+
+> **This is a fork/derivative repository.** It contains documentation and indexes of security audits related to Solana and Solana Program Library (SPL). This repository is **not affiliated with, endorsed by, or representative of** Anza, Solana Foundation, Solana Labs, Ethereum, or any other organization.
+
+### Technical Purpose
+
+This repository serves as a curated index of publicly available security audit reports for:
+- Solana blockchain runtime versions
+- Solana Program Library (SPL) programs
+- Core BPF Programs
+- Associated SDKs and cryptographic implementations
+
+### Upstream Repository
+
+This repository is forked from [anza-xyz/security-audits](https://github.com/anza-xyz/security-audits).
+
+### GitHub Actions Structural Validation
+
+This repository includes an automated GitHub Actions workflow (`auditoria-forense.yml`) that performs **basic structural integrity checks only**:
+- Verifies the presence of `README.md`
+- Verifies the presence of a LICENSE file
+- Confirms repository configuration validity
+
+⚠️ **Important Security Notice**: Passing these automated validations does **NOT**:
+- Certify that any audit is accurate, complete, or current
+- Guarantee the security or correctness of audited code
+- Imply endorsement or certification of any software
+- Replace professional security review or due diligence
+
+### Historical Content
+
+All audit documents listed below are maintained for historical reference and transparency. Users should verify the currency and relevance of audit reports before relying on them.
+
+---
+
 # Solana Security Audits
 
 ## Solana
